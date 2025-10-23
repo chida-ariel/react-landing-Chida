@@ -1,0 +1,44 @@
+.box{
+    width: 2.5rem;
+}
+
+.start{
+    color: white;
+    background-color: #0061FE;
+    border-radius: 9px;
+    padding: 0.7em;
+    font-size: 13px;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.3rem;
+    border-bottom: 1px solid #eee;
+}
+
+ .first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+}
+.navbar .first ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+} 
+
+.navbar .second ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

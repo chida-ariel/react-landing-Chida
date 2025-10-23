@@ -1,0 +1,72 @@
+.free{
+    border-bottom: 1px solid black;
+}
+
+.hero{
+    background-color: #F7F5F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 7em;
+    padding: 3rem;
+}
+
+.whats{
+    background-color: #0061FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 2em;
+    border-radius: 17px;
+    font-size: 17px;
+    height: 50px;
+    width: 270px;
+}
+
+.f_arrow{
+    display: flex;
+}
+
+
+.left_1{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.left_2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.all_left{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+} 
+
+.vid_1{
+    width: 165vw;
+    
+}
+
+.vid_1 video{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.find_anything{
+    line-height: 48px;
+    font-size: 40px;
+}
+
+.paragraph{
+    line-height: 30px;
+    font-size: 20px;
+}

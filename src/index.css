@@ -1,0 +1,41 @@
+@font-face{
+    font-family: SharpGroteskWide;
+    src:url(./assets/Sharp_Grotesk_Font_Family/Sharp_Grotesk/SharpGrotesk-Book20.otf)
+}
+@font-face{
+    font-family: sans-serif;
+    src:url(./assets/DM_Sans/static/DMSans-Thin.ttf)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a{
+    font-family: SharpGroteskWide;
+    font-weight: 800;
+    color: black;
+    
+}
+
+
+body{
+    font-family: sans-serif;
+    color: rgb(155, 153, 153);
+    line-height: 1.5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    /* color: inherit; */
+}
+ul{
+    list-style-type: none;
+}
