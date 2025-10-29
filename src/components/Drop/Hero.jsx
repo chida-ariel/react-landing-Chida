@@ -17,12 +17,12 @@ const Hero = () => {
       
       <div className='left_2'>
         <button className='whats' >What's new with Dash <FaArrowRight className='f_arrow'/></button>
-        <a href='#' className='free'>Try Dropbox free</a><img src='/public/images/drop-box-assetes/heroes/arrow_right.svg'/>
+        <a href='#' className='free'>Try Dropbox free</a><img src='/images/drop-box-assetes/heroes/arrow_right.svg'/>
       </div>
       </div>
 
       <div className='vid_1'>
-        <video autoPlay muted loop src='/public/images/drop-box-assetes/heroes/Dropbox.webm'></video>
+        <video autoPlay muted loop src='/images/drop-box-assetes/heroes/Dropbox.webm'></video>
       </div>
 
     </div>

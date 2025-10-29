@@ -1,0 +1,71 @@
+.c_management{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    padding: 0.4rem;
+    color: white;
+    background-color: #BE4B0A;
+    width: 200px;
+    border-radius: 40px;
+}
+
+.content_all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 7rem;
+    gap: 2.5em;
+    background-color: #FFFFFF;
+
+}
+
+.content_btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2.3em;
+}
+
+.content_try{
+        border-bottom: 1px solid black;
+        flex-direction: row;
+        gap: 1em;
+}
+
+.learn_more_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0.7rem;
+    gap: 1em;
+    border-radius: 15px;
+}
+
+.learn_try_button{
+    display: flex;
+    gap: 0.3em;
+}
+
+.content_images{
+    position: relative;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.content_f1{
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 500px;
+}
+
+.content_texts{
+    position: absolute;
+    top: 9%;
+    left: 15%;
+    width: 700px;
+}

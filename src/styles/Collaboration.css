@@ -1,0 +1,40 @@
+.collaboration_accounts{
+    color: white;
+}
+
+.collaboration_para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #9B0032;
+    width: 180px;
+    border-radius: 15px;
+}
+
+.collaboration_all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.collaboration_try{
+    display: flex;
+}
+
+.collaboration_btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3em;
+}
+
+.collaboration_learn_more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0.7rem;
+}
