@@ -12,9 +12,15 @@ const Collaboration = () => {
       <div className='collaboration_btns'>
       <button className='collaboration_learn_more'>Learn more <img src='/images/drop-box-assetes/collaboration/arrow_right.svg'/> </button>
       <div className='collaboration_try'_>
-      <a href='#'>Try for free</a><img src='/images/drop-box-assetes/collaboration/arrow_right.svg'/>
+      <a href='#' className='collaboration_anchor' >Try for free</a><img src='/images/drop-box-assetes/collaboration/arrow_right.svg'/>
       </div>
+            </div>
+
+      <div collaboration_images>
+        <img className='collaboration_standing' src='/images/drop-box-assetes/collaboration/standing.png'/>
+        <img className='collaboration_message' src='/images/drop-box-assetes/collaboration/message.png'/>
       </div>
+      
     </div>
   )
 };
